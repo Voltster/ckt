@@ -91,8 +91,8 @@ const FooterLink = ({ to, children }) => {
 const Footer = () => {
   return (
     <div className="relative">
-      {/* <div className="w-screen h-screen bg-transparent relative z-40"></div> */}
-      <footer className="sticky  bottom-0 left-0 w-full mx-auto rounded-md h-[70vh]  md:h-[100vh] md:pt-[20vh] overflow-hidden">
+      <div className="w-screen h-screen bg-transparent relative  hidden md:block"></div>
+      <footer className="sticky md:fixed md:right-0 md:z-0  bottom-0 left-0 w-full mx-auto rounded-md h-[70vh]  md:h-[100vh] md:pt-[20vh] overflow-hidden">
         <div className="leftAnime anime"></div>
         <div className="topAnime anime"></div>
         <div className="rightAnime anime"></div>

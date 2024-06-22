@@ -9,7 +9,7 @@ import InfinityScroll from "../components/Home/InfiniteScroll";
 
 const Home = () => {
   return (
-    <main className="heroBg">
+    <main className="heroBg relative md:z-10">
       <Hero />
       <Services />
       <About />

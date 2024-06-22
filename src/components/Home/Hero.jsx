@@ -11,7 +11,7 @@ const socialLinks = [
 const Hero = () => {
   return (
     <section
-      className="relative top-0  left-0  h-[100vh] flex w-full ml-auto gap-12 justify-center items-center pt-[6vw]  md:pt-[5vh]  overflow-x-hidden"
+      className="relative top-0   left-0  h-[100vh] flex w-full ml-auto gap-12 justify-center items-center pt-[6vw]  md:pt-[5vh]  overflow-x-hidden"
       id="home"
     >
       <div className=" w-10 border-r border-gray-600  h-full bg-inherit z-[99] hidden md:block">
