@@ -1,6 +1,7 @@
-.heroBg,
 body {
-
+  background-color: #00040f;
+}
+.heroBg {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -23,17 +24,18 @@ body {
   height: 100%;
 }
 
-footer{
+footer {
   z-index: -1;
 }
-
 
 [data-scroll-container] {
   overflow: hidden;
 }
 
 /* Optional: Adjustments for animations */
-.leftAnime, .topAnime, .rightAnime {
+.leftAnime,
+.topAnime,
+.rightAnime {
   position: absolute;
   overflow: hidden;
 }

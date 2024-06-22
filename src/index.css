@@ -1,27 +1,33 @@
+@import url(https://db.onlinewebfonts.com/c/5e7e5b88452bacd9f8b087c3223619b5?family=Ethnocentric+V2);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: "Ethnocentric" !important;
-    src: url("/assets/fonts/ethnocentric rg.otf") format("opentype"),
-      url("/assets/fonts/ethnocentric rg it.otf") format("opentype"),
-      url("/assets/fonts/ethnocentric rg.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "Ethnocentric";
+  src: url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.eot");
+  src: url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.svg#Ethnocentric V2")
+      format("svg");
 }
 
-@layer components {
-  .font-ethnocentric {
-    font-family: "Ethnocentric" Arial, Helvetica, sans-serif;
-  }
+h1 {
+  font-family: "Ethnocentric";
 }
-
 @layer components {
+  .ethnocentric {
+    font-family: "Ethnocentric";
+  }
   h1 {
-    @apply text-gray-50 font-ethnocentric font-bold  text-4xl md:text-5xl lg:text-6xl;
+    @apply text-gray-50    ethnocentric;
   }
 
   h2 {

@@ -8,8 +8,7 @@ const Contact = () => {
         Contact Us
       </h2>
       <div className="flex flex-col md:flex-row justify-center items-center gap-20 mt-12 md:mt-0">
-        {/* Left */}
-        <div className="md:w-1/3 w-full md:h-[70vh] mr-auto">
+        <div className="md:w-1/3 w-full md:h-[70vh] mr-auto" data-aos="fade-right">
           <p className="text-lg text-center md:text-left">
             {` "Ready to turn your vision into reality or scale up your entrepreneurial journey? We're just a form away. Let's connect!"`}
           </p>
@@ -28,7 +27,6 @@ const Contact = () => {
             <PrimaryButton className={"mt-12"}>Get Started</PrimaryButton>
           </div>
         </div>
-        {/* Right */}
         <div className="md:w-1/2 w-full">
           <div className="flex items-center justify-center p-4 md:p-12">
             <div className="mx-auto w-full max-w-[550px]">

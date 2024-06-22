@@ -25,7 +25,7 @@ const Hero = () => {
           ))}
         </ul>
       </div>
-      <div className="md:w-1/2 relative ">
+      <div className="md:w-1/2 relative " data-aos="fade-up">
         <h1 className="text-4xl md:text-[4.5vw] leading-none mb-4  px-6 md:px-0">
           <span className="text-transparent  bg-clip-text  bg-gradient-to-r from-blue-700 to-sky-400">
             Welcome
@@ -53,7 +53,7 @@ const Hero = () => {
           Explore more
         </PrimaryButton>
       </div>
-      <div className="w-12/4 hidden md:block">
+      <div className="w-12/4 hidden md:block" data-aos="fade-up">
         <img src={heroImg} alt="hero image" loading="eager" />
       </div>
     </section>

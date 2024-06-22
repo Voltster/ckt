@@ -49,6 +49,7 @@ const Project = () => {
             }`}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
+            data-aos="zoom-in-up"
           >
             <div className=" overflow-hidden rounded-[2rem]">
               <img
