@@ -29,7 +29,7 @@ function App() {
       {loading ? (
         <Loader />
       ) : (
-        <div className="App">
+        <div className="App w-screen ">
           <Navbar />
           <Outlet />
           <Footer />

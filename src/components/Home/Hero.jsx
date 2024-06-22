@@ -11,10 +11,15 @@ const socialLinks = [
 const Hero = () => {
   return (
     <section
-      className="relative top-0   left-0  h-[100vh] flex w-full ml-auto gap-12 justify-center items-center pt-[6vw]  md:pt-[5vh]  overflow-x-hidden"
+      className="relative top-0   left-0  h-[100vh] flex  ml-auto gap-12 justify-center items-center pt-[6vw]  md:pt-[5vh] w-screen  overflow-hidde"
       id="home"
     >
-      <div className=" w-10 border-r border-gray-600  h-full bg-inherit z-[99] hidden md:block">
+      <div
+        className=" w-10 border-r border-gray-600  h-full bg-inherit z-[99] hidden md:block"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <ul className="relative h-full flex gap-8 justify-between items-center text-white   top-20 -rotate-90">
           {socialLinks.map((link, index) => (
             <li key={index} className="cursor-pointer hover:text-blue-500">
@@ -53,7 +58,10 @@ const Hero = () => {
           Explore more
         </PrimaryButton>
       </div>
-      <div className="w-12/4 hidden md:block" data-aos="fade-up">
+      <div
+        className="w-12/4 hidden md:block !-overflow-hidden"
+        data-aos="fade-up"
+      >
         <img src={heroImg} alt="hero image" loading="eager" />
       </div>
     </section>
