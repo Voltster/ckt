@@ -48,8 +48,6 @@ footer {
 
 /* Navbar */
 .navlink {
-  /* max-width: 100%;
-  overflow-x: hidden; */
   --text: #229afc;
   --font-size: 16px;
   --duration: 0.25s;

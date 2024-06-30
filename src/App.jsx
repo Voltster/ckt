@@ -10,10 +10,11 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
-      offset: 200,
+      offset: 50,
       duration: 600,
       easing: "ease-in-sine",
       delay: 100,
+      once: true,
     });
   }, []);
 
@@ -29,7 +30,7 @@ function App() {
       {loading ? (
         <Loader />
       ) : (
-        <div className="App w-screen ">
+        <div className="App min-w-[100vw] min-h-screen ">
           <Navbar />
           <Outlet />
           <Footer />

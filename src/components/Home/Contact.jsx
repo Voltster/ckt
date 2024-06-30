@@ -1,5 +1,6 @@
 import PrimaryButton from "../common/PrimaryButton";
 import ContactForm from "./ContactForm";
+import { MdMailOutline } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -24,7 +25,7 @@ const Contact = () => {
             </span>
           </h4>
           <div className="flex justify-center md:justify-start">
-            <PrimaryButton className={"mt-12"}>Get Started</PrimaryButton>
+            <PrimaryButton to={'mailto:neerajjangid7528@gmail.com'} className={"mt-12 flex justify-center items-center gap-2"}>Email Us <MdMailOutline  className="text-xl"/> </PrimaryButton>
           </div>
         </div>
         <div className="md:w-1/2 w-full">

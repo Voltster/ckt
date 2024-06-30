@@ -6,7 +6,7 @@ const testimonialsData = [
     company: "Life coach - Friendly Parenting",
     text: "I am thrilled with my new website! The redesign is not only visually appealing but also easy to navigate. The team really understood my needs and created a site that perfectly represents my teaching philosophy. Highly recommend their services!",
     image:
-      "https://friendly-parenting.vercel.app/assets/img//Certificate/certificate%208.jpg",
+      "https://voltster.github.io/Friendly-Parenting/assets/img/logo/android-chrome-512x512.png",
   },
   {
     id: 2,

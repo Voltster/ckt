@@ -3,7 +3,7 @@ import SecondaryButton from "../common/SecondaryButton";
 
 const ServiceCard = ({ title, description, icon }) => {
   return (
-    <div className=" container overflow-hidden z-0 h-[30vh] md:h-[88%] block relative max-w-262 rounded-3xl md:p-8 md:mx-4 my-3  before:bg-gradient-to-r from-blue-700 to-sky-400 card cursor-pointer">
+    <div className=" container overflow-hidden z-0 h-[30vh] md:h-[90%] block relative max-w-262 rounded-3xl md:p-8 md:mx-4 my-6 md:my-3  before:bg-gradient-to-r from-blue-700 to-sky-400 card cursor-pointer" data-aos="zoom-in">
       <h3 className="text-lg pt-4 px-4 md:p-0">{title}</h3>
       <p className=" my-4 px-4 md:p-0">{description}</p>
       <div
@@ -25,13 +25,14 @@ const ServiceSection = () => {
       <h2 className="text-white text-4xl md:text-5xl font-medium text-center">
         Our Premium Services Included
       </h2>
-      <div className="md:grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-10">
+      <div className="md:grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-4 my-10">
         {servicesData.map((service) => (
           <ServiceCard
             key={service.id}
             title={service.title}
             description={service.description}
             icon={service.icon}
+            
           />
         ))}
         <div className="inline p-8  col-span-2">

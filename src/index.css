@@ -7,27 +7,24 @@
 @font-face {
   font-family: "Ethnocentric";
   src: url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.eot");
-  src: url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.svg#Ethnocentric V2")
-      format("svg");
+  src: url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5e7e5b88452bacd9f8b087c3223619b5.svg#Ethnocentric V2") format("svg");
 }
 
 h1 {
   font-family: "Ethnocentric";
 }
+
 @layer components {
   .ethnocentric {
     font-family: "Ethnocentric";
   }
+
   h1 {
-    @apply text-gray-50    ethnocentric;
+    @apply text-gray-50 ethnocentric;
   }
 
   h2 {
@@ -35,7 +32,7 @@ h1 {
   }
 
   h3 {
-    @apply text-gray-200  font-bold text-[3vh] md:text-2xl lg:text-3xl;
+    @apply text-gray-200 font-bold text-[3vh] md:text-2xl lg:text-3xl;
   }
 
   h4 {
@@ -47,7 +44,7 @@ h1 {
   }
 
   p {
-    @apply text-gray-100 text-sm md:text-base lg:text-lg;
+    @apply text-gray-100 text-sm md:text-base 2xl:text-lg;
   }
 
   .btn-primary {
