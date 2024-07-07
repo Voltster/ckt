@@ -9,11 +9,11 @@ body {
 
 @font-face {
   font-family: "Ethnocentric";
-  src: url("font/ethnocentric.eot");
-  src: url("font/ethnocentric.eot?#iefix")format("embedded-opentype"),
-    url("font/ethnocentric.woff")format("woff"),
-    url("font/ethnocentric.woff2")format("woff2"),
-    url("font/ethnocentric.ttf")format("truetype");
+  src: url("./font/ethnocentric.eot");
+  src: url("./font/ethnocentric.eot?#iefix")format("embedded-opentype"),
+    url("./font/ethnocentric.woff")format("woff"),
+    url("./font/ethnocentric.woff2")format("woff2"),
+    url("./font/ethnocentric.ttf")format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
